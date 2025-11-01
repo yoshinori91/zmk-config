@@ -16,7 +16,7 @@
         compatible = "zmk,matrix-transform";
         rows = <1>;
         columns = <2>;
-        map = 
+        map = <
             RC(0,0) RC(0,1)
         >;
     };
