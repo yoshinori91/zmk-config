@@ -1,0 +1,4 @@
+if WRKNG
+config ZMK_KEYBOARD_NAME
+    default "Wrkng Keyboard"
+endif

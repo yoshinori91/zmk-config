@@ -1,0 +1,34 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    chosen {
+        zmk, physical-layout = &physical_layout0;
+    };
+
+    physical_layout0: physical_layout0 {
+        compatible = "zmk, physical_layout";
+        display-name = "Default Layout";
+        kscan = <&kscan0>;
+        transform = <&default_kscan0>;
+    };
+
+    default_transform: keymap_transform0 {
+        compatible = "zmk, matrix_transform";
+        rows = <1>;
+        columns = <2>;
+        map = <
+            RC(0,0) RC(0,1)
+        >;
+    };
+
+    kscan0: kscan0 = {
+        compatible = "zmk, kscan-gpio-matrix";
+        diode-direction = "col2row";
+        col-gpios
+            = <&xiao_d 5 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 5 GPIO_ACTIVE_HIGH>
+            ;
+        row-gpios
+            = <&xiao_d 8 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>;
+    };
+}
