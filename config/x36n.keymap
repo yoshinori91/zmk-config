@@ -57,10 +57,10 @@
 
         fn3_layer {
             bindings = <
-            &none &none &none       &none &none &none &none    &none  &none  &none  &none &none
-            &none &none &none       &none &none &none &none    &none  &none  &none  &none &none
-            &none &kp A &bootloader &none &none &none &none    &none  &none  &none  &bootloader &none
-            &none &none &none       &none &none &studio_unlock &none  &none  &xtips &none &none &none
+            &none &none &none        &none        &none        &none &none    &none  &none  &none  &none &none
+            &none &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none    &none  &none  &none  &none &none
+            &none &kp A &bootloader  &none        &none        &none &none    &none  &none  &none  &bootloader &none
+            &none &none &none        &none        &none        &studio_unlock &none  &none  &xtips &none &none &none
             >;
         };
 
