@@ -20,7 +20,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = 
+            bindings = <
             &kp ESC    &kp Q    &kp W    &kp E      &kp R        &kp T     &kp Y      &kp U        &kp I        &kp O     &kp P      &kp BSPC
             &kp TAB    &kp A    &kp S    &kp D      &kp F        &kp G     &kp H      &kp J        &kp K        &kp L     &kp SEMI   &kp ENTER
             &kp Z      &kp Z    &kp X    &kp C      &kp V        &kp B     &kp N      &kp M        &lt 3 COMMA  &kp DOT   &kp SLASH  &kp DEL
@@ -29,7 +29,7 @@
         };
 
         fn1_layer {
-            bindings = 
+            bindings = <
             &kp TILDE   &kp N7  &kp N8  &kp N9    &kp KP_DOT  &kp KP_PLUS      &kp PRCNT  &kp DLLR      &kp EXCL   &kp LBRC  &kp RBRC  &kp DQT
             &kp GRAVE   &kp N4  &kp N5  &kp N6    &kp N0      &kp KP_MINUS     &kp AMPS   &kp HASH      &kp PIPE   &kp LBKT  &kp RBKT  &kp SQT
             &kp BSPC    &kp N1  &kp N2  &kp N3    &kp EQUAL   &kp KP_MULTIPLY  &kp BSLH   &kp AT        &kp CARET  &kp LPAR  &kp RPAR  &kp UNDER
@@ -38,7 +38,7 @@
         };
 
         fn2_layer {
-            bindings = 
+            bindings = <
             &kp F1        &kp F2        &kp F3        &kp F4      &kp F5        &kp F6       &kp PG_UP  &kp HOME    &kp UP        &kp END       &kp LS(UP)    &kp LS(DOWN)
             &kp F7        &kp F8        &kp F9        &kp F10     &kp F11       &kp F12      &kp PG_DN  &kp LEFT    &kp DOWN      &kp RIGHT     &kp LS(LEFT)  &kp LS(RIGHT)
             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &out OUT_USB  &out OUT_BLE &kp C_PP   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT
@@ -47,7 +47,7 @@
         };
 
         fn3_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none &none  &none &none &none &none
             &none &none &none &none &none &none &none &none  &none &none &none &none
             &none &none &none &none &none &none &none &none  &none &none &none &none
@@ -56,7 +56,7 @@
         };
 
         fn4_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
@@ -65,7 +65,7 @@
         };
 
         fn5_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
@@ -74,7 +74,7 @@
         };
 
         fn6_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
@@ -83,7 +83,7 @@
         };
 
         fn7_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
@@ -92,7 +92,7 @@
         };
 
         fn8_layer {
-            bindings = 
+            bindings = <
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
             &none &none &none &none &none &none &none &none &none &none &none &none
