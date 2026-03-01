@@ -60,7 +60,7 @@
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
             &none &none &none &none &none &none &none        &none  &none  &none &none &none
-            &none &none &none &none &none &none &bootloader  &none  &xtips &none &none &none
+            &none &none &none &none &none &studio_unlock &bootloader  &none  &xtips &none &none &none
             >;
         };
 
