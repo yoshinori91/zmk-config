@@ -10,7 +10,7 @@
         xtips: xtips {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(X) &kp KP_DOT &kp LS(T) &kp I &kp P &kp S>;
+            bindings = <&kp LS(X) &kp DOT &kp LS(T) &kp I &kp P &kp S>;
             wait-ms = <1>;
             tap-ms = <1>;
         };
