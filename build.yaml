@@ -20,4 +20,4 @@
 ---
 ---
 include:
-  - board: x36n
+  - board: nrfmicro_13_52840
