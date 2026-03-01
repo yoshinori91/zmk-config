@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: x-tips
-      url-base: https://github.com/X-Tips
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: ZMK-Keyboard
-      remote: x-tips
-      revision: main
   self:
     path: config
